@@ -1,2 +1,13 @@
-# onetap.js-delays
-Adds a delay framework to the onetap.js API.
+# Onetap.js Delays
+
+Onetap.js Delays is a framework to provide other script developers with a proper delay function.
+
+## How to Use
+
+It is as simple as putting the codeblock from [```delay.js```](https://github.com/nnrory/onetap.js-delays/blob/master/delay.js) into your own script.
+
+## Usage
+```js
+new Delay(5, function() { Cheat.Print("Hello world!"); }, 3);
+// Delay Time, Associated Function, Repeat x amount of times(Optional)
+```
